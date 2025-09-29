@@ -38,6 +38,7 @@
     "clsx": "*",
     "cmdk": "^1.1.1",
     "embla-carousel-react": "^8.6.0",
+    "express": "^4.21.2",
     "hono": "*",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.487.0",
@@ -50,8 +51,7 @@
     "recharts": "^2.15.2",
     "sonner": "^2.0.3",
     "tailwind-merge": "*",
-    "vaul": "^1.1.2",
-    "serve": "^14.2.0"
+    "vaul": "^1.1.2"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
@@ -61,6 +61,6 @@
   "scripts": {
     "dev": "vite",
     "build": "node ./scripts/build.js",
-    "start": "npx serve -s dist -l $PORT"
+    "start": "node server.js"
   }
 }
