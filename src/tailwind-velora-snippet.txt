@@ -1,0 +1,26 @@
+// Snippet Tailwind pour extends.colors
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        velora: {
+          bg: '#110F16',
+          surface: '#2B2B4E',
+          cyan: '#6CCFE6',
+          peach: '#EFB7A8',
+          mauve: '#AA99AF',
+          light: '#D5B6C6',
+        }
+      },
+      backgroundImage: {
+        'velora-gradient': 'linear-gradient(135deg, #6CCFE6 0%, #AA99AF 50%, #EFB7A8 100%)',
+      }
+    }
+  }
+}
+
+// Classes utilitaires disponibles :
+// bg-velora-bg, bg-velora-surface, bg-velora-cyan, bg-velora-peach, bg-velora-mauve, bg-velora-light
+// text-velora-bg, text-velora-surface, text-velora-cyan, text-velora-peach, text-velora-mauve, text-velora-light
+// border-velora-bg, border-velora-surface, border-velora-cyan, border-velora-peach, border-velora-mauve, border-velora-light
+// bg-velora-gradient

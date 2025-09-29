@@ -1,0 +1,9 @@
+:root {
+  --velora-bg: #110F16;
+  --velora-dark: #2B2B4E;
+  --velora-cyan: #6CCFE6;
+  --velora-peach: #EFB7A8;
+  --velora-mauve: #AA99AF;
+  --velora-light: #D5B6C6;
+  --velora-gradient: linear-gradient(135deg,#6CCFE6 0%,#AA99AF 50%,#EFB7A8 100%);
+}

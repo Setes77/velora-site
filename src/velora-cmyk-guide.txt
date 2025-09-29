@@ -1,0 +1,36 @@
+VELORA ESPORT - GUIDE CMYK APPROXIMATIF
+
+#110F16 (Fond principal)
+CMYK: C:31 M:36 Y:0 K:91
+RGB: 17, 15, 22
+Note: Très sombre, proche du noir
+
+#2B2B4E (Secondary dark)
+CMYK: C:45 M:45 Y:0 K:69
+RGB: 43, 43, 78
+Note: Bleu-gris foncé
+
+#6CCFE6 (Accent cyan)
+CMYK: C:53 M:10 Y:0 K:10
+RGB: 108, 207, 230
+Note: Cyan vif, attention en impression offset
+
+#EFB7A8 (Accent peach)
+CMYK: C:0 M:23 Y:30 K:6
+RGB: 239, 183, 168
+Note: Pêche douce, reproduction fidèle
+
+#AA99AF (Accent mauve)
+CMYK: C:2 M:15 Y:0 K:31
+RGB: 170, 153, 175
+Note: Mauve subtil
+
+#D5B6C6 (Ton clair)
+CMYK: C:0 M:14 Y:7 K:16
+RGB: 213, 182, 198
+Note: Rose poudré clair
+
+RECOMMANDATIONS IMPRESSION:
+- Utiliser profil FOGRA39 pour offset
+- Prévoir test couleur pour les cyans vifs
+- Vérifier rendu sur papiers non-couchés

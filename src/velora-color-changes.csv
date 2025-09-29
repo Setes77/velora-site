@@ -1,0 +1,18 @@
+component_id,component_name,original_color,new_token,page_frame,change_type
+header-bg,Header Background,var(--card),Velora/Surface,App/Header,background_fill
+login-card,Login Card Background,var(--card),Velora/Surface,App/Login,background_fill
+login-gradient,Login Logo Background,custom_gradient,Velora/Gradient/Hero,App/Login,background_fill
+button-primary,Primary Button,var(--primary),Velora/Accent/Cyan,Global/Buttons,background_fill
+button-primary-text,Primary Button Text,var(--primary-foreground),Velora/Background,Global/Buttons,text_color
+week-grid-bg,Week Grid Background,var(--card),Velora/Surface,App/Planning,background_fill
+week-grid-available,Available Slot,var(--primary),Velora/Accent/Cyan,App/Planning,border_color
+week-grid-available-bg,Available Slot Background,var(--primary)/10,Velora/Gradient/Hero opacity:0.1,App/Planning,background_fill
+save-bar-bg,Save Bar Background,var(--card),Velora/Surface,App/Planning,background_fill
+manager-card-bg,Manager Card Background,var(--card),Velora/Surface,App/Manager,background_fill
+toast-success-bg,Toast Success Background,green-500/10,Velora/Accent/Peach opacity:0.1,Global/Toast,background_fill
+badge-secondary,Secondary Badge,var(--secondary),Velora/Accent/Peach,Global/Badge,background_fill
+input-border,Input Border,var(--border),Velora/Surface,Global/Input,border_color
+input-focus,Input Focus Ring,var(--ring),Velora/Accent/Cyan,Global/Input,border_color
+text-muted,Muted Text,var(--muted-foreground),Velora/Text/Secondary,Global/Text,text_color
+text-foreground,Primary Text,var(--foreground),Velora/Text/Primary,Global/Text,text_color
+background-app,App Background,var(--background),Velora/Background,App/Global,background_fill

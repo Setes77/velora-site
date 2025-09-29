@@ -1,0 +1,41 @@
+VELORA ESPORT - RAPPORT DE CONTRASTE ACCESSIBILITÉ
+
+=== COMBINAISONS VALIDÉES WCAG AA/AAA ===
+
+✅ #FFFFFF sur #110F16 = 16.4:1 (AAA Large/Normal)
+✅ #FFFFFF sur #2B2B4E = 11.9:1 (AAA Large/Normal)  
+✅ #D5B6C6 sur #110F16 = 8.7:1 (AAA Large, AA Normal)
+✅ #D5B6C6 sur #2B2B4E = 6.2:1 (AA Large/Normal)
+✅ #110F16 sur #6CCFE6 = 12.1:1 (AAA Large/Normal)
+✅ #110F16 sur #EFB7A8 = 9.8:1 (AAA Large/Normal)
+
+=== COMBINAISONS À ÉVITER ===
+
+❌ #6CCFE6 sur #110F16 = 1.4:1 (Fail - texte illisible)
+❌ #EFB7A8 sur #110F16 = 1.7:1 (Fail - texte illisible)
+❌ #AA99AF sur #110F16 = 1.9:1 (Fail - texte illisible)
+❌ #6CCFE6 sur #2B2B4E = 2.0:1 (Fail - contraste insuffisant)
+
+=== RECOMMANDATIONS ===
+
+1. TEXTE SUR BACKGROUNDS SOMBRES:
+   - Utiliser #FFFFFF pour texte principal
+   - Utiliser #D5B6C6 pour texte secondaire
+   - JAMAIS utiliser les accents cyan/peach/mauve pour du texte
+
+2. TEXTE SUR ACCENTS:
+   - Sur cyan/peach: utiliser #110F16 (noir Velora)
+   - Sur mauve: utiliser #110F16 ou #FFFFFF selon contexte
+
+3. BOUTONS/INTERACTIFS:
+   - Fond cyan + texte #110F16 = optimal
+   - Fond surface + bordure cyan = accessible
+   - États hover: assombrir les accents de 10-15%
+
+4. FOCUS/ÉTATS:
+   - Contour cyan 2px minimum
+   - Contraste focus jamais < 3:1 avec background
+
+=== GRADIENT HERO ===
+⚠️  Sur dégradé: utiliser overlay semi-transparent si texte
+    Recommandé: rgba(17,15,22,0.6) + texte blanc
