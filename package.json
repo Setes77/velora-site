@@ -2,6 +2,10 @@
   "name": "eSports-Availability-App",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@jsr/supabase__supabase-js": "^2.49.8",
     "@radix-ui/react-accordion": "^1.2.3",
@@ -56,7 +60,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "start": "serve -s dist -l $PORT"
+    "build": "node ./scripts/build.js",
+    "start": "npx serve -s dist -l $PORT"
   }
 }
